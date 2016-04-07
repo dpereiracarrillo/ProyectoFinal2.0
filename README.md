@@ -21,5 +21,9 @@ En la primera clase llamada Inicio.py encontramos el login, que nos llama a la s
 
 
 Es la clase principal del proyecto, en ella encontramos todos los métodos para utilizar los botones de la interfaz. 
+
+
 En el método def nos conectamos con la base de datos , que hemos creado anteriormente en el programa SQLiteMan. La tabla dentro de la base de datos se llama bar y tiene como clave primaria un Codigo y como claves secundarias Producto,Precio,Cantidad,Cliente,Mesa,Telefono y Camarero. 
+
+
 En el método mostrar nos crea el treeview que muestra en la interfaz todo lo que hacemos en el programa
