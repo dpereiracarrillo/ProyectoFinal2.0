@@ -26,4 +26,13 @@ Es la clase principal del proyecto, en ella encontramos todos los métodos para 
 En el método def nos conectamos con la base de datos , que hemos creado anteriormente en el programa SQLiteMan. La tabla dentro de la base de datos se llama bar y tiene como clave primaria un Codigo y como claves secundarias Producto,Precio,Cantidad,Cliente,Mesa,Telefono y Camarero. 
 
 
-En el método mostrar nos crea el treeview que muestra en la interfaz todo lo que hacemos en el programa
+En el método mostrar nos crea el treeview que muestra en la interfaz todo lo que hacemos en el programa. El treeview nos selecciona directamente todo lo que tenemos en la base con un "select * from bar".
+
+
+Método insertar. Una vez rellenamos todos los campos de texto hacemos click en el botón insertar, que está unido a este método y nos añadirá el pedido en la base de datos. Al acabar de insertar los pedidos podemos hacer click en el botón Actualizar para que nos muestre al momento como se encuentra la base actualmente.
+Este método cuenta con excepciones, es decir, al insertar la clave primaria código no podemos repetirla, si no nos saltará un aviso y no nos lo insertará en la base.
+
+
+
+
+
