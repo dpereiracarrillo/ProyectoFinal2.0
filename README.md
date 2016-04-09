@@ -63,6 +63,12 @@ Método popup. Hace que nos slaten ventanas emergentes cada vez que hacemos clic
 Método actualizar. Actualiza todo lo que hay dentro de la base.
 
 
+##Reportlab.py
+
+
+En esta clase creamos el pdf que nos permite sacar los tickets para los clientes al momento. Lo que hace es imprimirte todo lo que tienes en la base de datos, para usar esta clase tienes que darle click derecho encima de ella y darle a run, asi te genera el pdf, luego solamente dale click al pdf y ya ves todo lo que hay dentro de tu base
+
+
 
 
 
