@@ -1,10 +1,22 @@
 #Proyecto final de Python:
 He mejorado la aplicación de la siguiente forma: 
+
+
                                       -Cambiando lo que imprimía por pantalla por unos popup para los avisos 
+                                      
+                                      
                                       -Incluyendo un botón de ayuda al usuario 
+                                      
+                                      
                                       -Añadiendo un treeview para consultar los datos 
+                                      
+                                      
                                       -Con un diseño más moderno de la interfaz para añadir clientes 
+                                      
+                                      
                                       -Añadiendo iconos y colores en la interfaz 
+                                      
+                                      
                                       -Le añadí excepciones para que no se pueda repetir la clave primaria
                                       
                                       
@@ -31,6 +43,26 @@ En el método mostrar nos crea el treeview que muestra en la interfaz todo lo qu
 
 Método insertar. Una vez rellenamos todos los campos de texto hacemos click en el botón insertar, que está unido a este método y nos añadirá el pedido en la base de datos. Al acabar de insertar los pedidos podemos hacer click en el botón Actualizar para que nos muestre al momento como se encuentra la base actualmente.
 Este método cuenta con excepciones, es decir, al insertar la clave primaria código no podemos repetirla, si no nos saltará un aviso y no nos lo insertará en la base.
+
+
+Método modificar. Nos permite cambiar todos los atributos a parir de la primary key. Muy útil por si te confundes en un dato al meter el registro en la base de datos, sólo tendrías que poner el código y volver a inertar el registro correcatmente para cambiarlo.
+
+
+Método ayuda. Nos saltará una pequeña ventana emergente con unas sencillas instrucciones para usar los botones de nuestra interfaz
+
+
+Método consultar. Nos enseñe todo lo que se encuentra en la base de datos.
+
+
+Método borrar. Borra para siempre los datos en nuestra base. Para usar est método solo tienes que colocarte en el treeviw de la interfaz y hacer click sobre el registro que quieras borrar, darle click a borrar y listo.
+
+
+Método popup. Hace que nos slaten ventanas emergentes cada vez que hacemos click a un botón. Útil por si hacemos click en algo sin querer, ya que nos avisa de lo que hicimos en la base.
+
+
+Método actualizar. Actualiza todo lo que hay dentro de la base.
+
+
 
 
 
